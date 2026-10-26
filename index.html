@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+<script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav class="navbar md:navbar-expand bg-1">
+  <div class="container-fluid">
+    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+    <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarDrawer" aria-controls="navbarDrawer" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" aria-hidden="true"></span>
+    </button>
+    <dialog class="drawer drawer-end" tabindex="-1" id="navbarDrawer" aria-labelledby="navbarDrawerLabel">
+      <div class="drawer-header">
+        <h5 class="drawer-title" id="navbarDrawerLabel">Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+      </div>
+      <div class="drawer-body mb-2 md:mb-0">
+        <ul class="nav navbar-nav me-auto">
+            
+        <form class="hstack gap-2" role="search">
+            <input style="border-radius: 20px; width: 440px;" class="form-control" type="search" placeholder="What would you like to play?" aria-label="Search" />
+            <button class="btn-solid btn-icon theme-secondary" type="submit">
+                <svg class="bi" width="16" height="16">
+                    <use href="#search">
+                </svg> 
+            </button>
+        </form>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Premium</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Support</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Download</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">|</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Install App</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sign up</a>
+          </li>
+        <ul class="nav nav-pills" style="font-weight:bold;">
+            <li class="nav-item">
+                <a class="nav-link active" style="background-color: white; color: black;" aria-current="page" href="#">Log in</a>
+            </li>
+        </ul>
+        </ul>
+      </div>
+    </dialog>
+  </div>
+</nav>
+
+<!-- <dialog class="drawer drawer-start show" open tabindex="-1" id="drawer" aria-labelledby="drawerLabel">
+  <div class="drawer-header">
+    <h5 class="drawer-title" id="drawerLabel">Drawer</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+  </div>
+  <div class="drawer-body">
+    Content for the drawer goes here. You can place just about any Bootstrap component or custom elements here.
+  </div>
+</dialog> -->
+
+<div id="carouselMultiple" class="carousel slide" data-bs-ends="stop"
+  style="--bs-carousel-items: 5; --bs-carousel-items-peek: 3rem; --bs-carousel-items-gap: 1.5rem; width: 70%;">
+  <div class="d-flex justify-content-between align-items-center">
+    <h5 class="mb-0" style="font-weight: bold; font-size: 25px; margin-left: 50px; margin-top: 50px;">Trending Songs</h5>
+    <a href="#" style="color: white;"></a>
+    <div>
+  </div>
+</div>
+  <div class="carousel-inner" style="margin-top: 10px;">
+    <div class="carousel-item"><img src="./img 3/ab67616d00001e026fd1847308ee61e23d75f132.jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img 3/ab67616d00001e02af48f69ba909f34f0bf1243c.jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img 3/ab67616d00001e02dd1927aed5ba60b29ada958e.jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img 3/ab67616d00001e0282104676312421795cfa942e.jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img 3/ab67616d00001e02bae83e9d53a8acaf71cfa739.jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img 3/ab67616d00001e02c167c277a6542a7bcce6073e.jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img 3/ab67616d00001e022838fa58469bbda0533611fa.jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img 3/ab67616d00001e02632f705e9e04559b52b79653.jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img 3/ab67616d00001e027b8f17692e3c57f4b2cc205c.jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src=".//img 3/ab67616d00001e026ce9e47b7558222944627947.jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img 3/ab67616d00001e0217ebea556fdba48968fe24f1.jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img 3/ab67616d00001e027bb6499cd22db4f26e6c76ca.jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img 3/ab67616d00001e029bef0d1bf21bd76842d25236.jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img 3/ab67616d00001e02ffdc8175febd1b566283afd5.jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img 3/ab67616d00001e02f53fe4d82d14c603c56d05d9.jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img 3/ab67616d00001e02e4681e7221865fb6cb686c05.jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img 3/ab67616d00001e021e027a1d38745766befb1cbd.jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img 3/ab67616d00001e02d8d51a0e95a6b47ae9e9d16c.jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img 3/ab67616d00001e027bb6499cd22db4f26e6c76ca.jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+  </div>
+</div>
+
+
+<div id="carouselMultiple" class="carousel slide" data-bs-ends="stop"
+  style="--bs-carousel-items: 5; --bs-carousel-items-peek: 3rem; --bs-carousel-items-gap: 1.5rem; width: 70%; margin-top: 80px;">
+  <div class="d-flex justify-content-between align-items-center">
+    <h5 class="mb-0" style="font-weight: bold; font-size: 25px; margin-left: 50px; margin-top: 50px;">Popular artists</h5>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item"><img src="./img2/ab676161000051742bf250c3e92f9e7542efd95c.jpeg" class="d-block w-100 rounded-5" alt="..." style="border-radius: 70px;"></div>
+    <div class="carousel-item"><img src="./img2/ab6761610000517422810feeeab2be7a87df8dac.jpeg" class="d-block w-100 rounded-5" alt="..." style="border-radius: 870px; height: 150px;" ></div>
+    <div class="carousel-item"><img src="./img2/ab67616100005174ff54cbafa23b728b49954587.jpeg" class="d-block w-100 rounded-5" alt="..."style="border-radius: 70px;"></div>
+    <div class="carousel-item"><img src="./img2/ab676161000051749902f473df31601d5938e0bd.jpeg" class="d-block w-100 rounded-5" alt="..."style="border-radius: 70px; height: 150px"></div>
+    <div class="carousel-item"><img src="./img2/ab67616100005174b4e44d0f4e3e47af2cf06f3f.jpeg" class="d-block w-100 rounded-5" alt="..."style="border-radius: 70px; height: 150px"></div>
+    <div class="carousel-item"><img src="./img2/ab67616100005174c5220e1882a3fd5e34203b97.jpeg" class="d-block w-100 rounded-5" alt="..."style="border-radius: 70px; height: 150px"></div>
+    <div class="carousel-item"><img src="./img2/ab67616100005174d3c02a2a399fade619a9ae5c.jpeg" class="d-block w-100 rounded-5" alt="..."style="border-radius: 70px;"></div>
+    <div class="carousel-item"><img src="./img2/ab67616100005174e6ef803356b45ee5a9fa7a8a.jpeg" class="d-block w-100 rounded-5" alt="..."style="border-radius: 70px;"></div>
+    <div class="carousel-item"><img src="./img2/ab67616100005174690d9ec39523c7159ada0426.jpeg" class="d-block w-100 rounded-5" alt="..."style="border-radius: 70px; height: 150px"></div>
+    <div class="carousel-item"><img src="./img2/ab67616100005174acf559e4fab194305441a54f.jpeg" class="d-block w-100 rounded-5" alt="..."style="border-radius: 70px; height: 150px"></div>
+  </div>
+</div>
+
+
+<div id="carouselMultiple" class="carousel slide" data-bs-ends="stop"
+  style="--bs-carousel-items: 5; --bs-carousel-items-peek: 3rem; --bs-carousel-items-gap: 1.5rem; width: 70%; margin-top: 80px;">
+  <div class="d-flex justify-content-between align-items-center">
+    <h5 class="mb-0" style="font-weight: bold; font-size: 25px; margin-left: 50px; margin-top: 50px;">Popular albums and singles</h5>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item"><img src="./img2/ab67616d00001e021dee1b62d81e4b9249af483c.jpeg"class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img2/ab67616d00001e02b2e1e769ff8baf757613b900.jpeg"class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img2/ab67616d00001e02031b368082f16c71881b2b20.jpeg"class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img2/ab67616d00001e02eb6ae8a121b7f36bbd99a744.jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img2/ab67616d00001e02ce316f1bf39f051cdb121c13.jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img2/ab67616d00001e0297ce44b0f04256f8206eab4d.jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img2/ab67616d00001e027c45c1c29c18a5e0b46fc117.jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img2/ab67616d00001e021ee6732ccb8f07bd15b33beb.jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img2/ab67616d00001e0240bf26bf68342abecb59ba93.jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img2/ab67616d00001e02bd7c458fdf9f79732238d43a.jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+  </div>
+</div>
+
+
+<div id="carouselMultiple" class="carousel slide" data-bs-ends="stop"
+  style="--bs-carousel-items: 5; --bs-carousel-items-peek: 3rem; --bs-carousel-items-gap: 1.5rem; width: 70%; margin-top: 80px;">
+  <div class="d-flex justify-content-between align-items-center">
+    <h5 class="mb-0" style="font-weight: bold; font-size: 25px; margin-left: 50px; margin-top: 50px;">Popular radio</h5>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item"><img src="./img/en-GB (3).jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img/en (4).jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img/en-GB.jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img/en-GB (1).jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img/en (1).jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img/en (2).jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img/en.jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img/en (3).jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img/en-GB (2).jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img/en-GB (4).jpeg" class="d-block w-100 rounded-5" alt="..."></div>
+  </div>
+</div>
+
+
+<div id="carouselMultiple" class="carousel slide" data-bs-ends="stop"
+  style="--bs-carousel-items: 5; --bs-carousel-items-peek: 3rem; --bs-carousel-items-gap: 1.5rem; width: 70%; margin-top: 80px;">
+  <div class="d-flex justify-content-between align-items-center">
+    <h5 class="mb-0" style="font-weight: bold; font-size: 25px; margin-left: 50px; margin-top: 50px;">Featured charts</h5>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item"><img src="./img/region_global_default.jpg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img/region_ng_default (1).jpg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img/region_global_default (1).jpg" class="d-block w-100 rounded-5" alt="..."></div>
+    <div class="carousel-item"><img src="./img/region_ng_default.jpg" class="d-block w-100 rounded-5" alt="..."></div>
+  </div>
+</div>
+
+
+<hr style="margin-top: 120px;">
+
+<table class="table table-borderless" style="margin-top: 60px; line-height: 15px; width: 70%;">
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">Company</th>
+      <th scope="col">Community</th>
+      <th scope="col">Useful links</th>
+      <th scope="col">Spotify plans</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th></th>
+      <td>About</td>
+      <td>For Artists</td>
+      <td>Support</td>
+      <td>Premium Individual</td>
+
+    </tr>
+    <tr>
+      <th></th>
+      <td>Jobs</td>
+      <td>For creators</td>
+      <td>Free mobile app</td>
+      <td>Premium Duo</td>
+
+    </tr>
+    <tr>
+      <th></th>
+      <td>For Records</td>
+      <td>For Authors</td>
+      <td>Popular by country</td>
+      <td>Premium Family</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td></td>
+      <td>Developers</td>
+      <td>Top songs lyrics</td>
+      <td>Premium Student</td>
+
+    </tr>
+    <tr>
+      <th></th>
+      <td></td>
+      <td>Advertising</td>
+      <td>Import your music</td>
+      <td>Spotify free</td>
+
+    </tr>
+    <tr>
+      <th></th>
+      <td></td>
+      <td>Investors</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th></th>
+      <td></td>
+      <td>Vendors</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+
+<hr style="margin-top: 20px;">
+</body>
+</html>
